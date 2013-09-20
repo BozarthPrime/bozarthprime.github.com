@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Taking the New Server For a Test Ride"
+date:   2013-09-19 22:44:39
+categories: general
+---
+
+After the great computer-crash-and-realizing-I-need-to-get-better-at-backups debacle of 'O thirteen I have decided to re-evaluate my server choice. I was paying for a Microsoft server because the site I was playing with ASP.Net MVC at the time. Just before the loss of code I had moved back to my roots a bit more and been playing with a lot of other things that I would rather do on a linux box, on part of that reasoning is because I dispise IIS and its 1.25 trillion config settings.
+
+I had been playing with OpenShift for a bit but that is not really suited to website hosting and besides, I have many more fun projects I can think of for 3 free hosted node.js apps. A friend of mine pointed me here and here I am. I like it thus far. I can use git without having to do anything, it is free, nice blogging engine to play with, and not to mention it is free. I like free. It is a good price. 
