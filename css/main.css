@@ -153,11 +153,6 @@ nav ul li a {
   color: #FFF;
 }
 
-nav ul li a:hover {
-  color: #000;
-}
-
-
 nav ul li a img {
   max-height: 2em;
   max-width: 2em;
@@ -200,6 +195,10 @@ nav ul li a img {
 
 .post pre code {
   border: none;
+}
+
+.post img.headline {
+  width: 100%;
 }
 
 

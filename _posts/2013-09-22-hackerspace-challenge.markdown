@@ -5,7 +5,7 @@ date:   2013-09-22 23:29:00
 categories: general
 ---
 
-<img src="../images/story/M6.png" />
+<img src="../images/story/M6.png" class="headline"/>
 
 Every year (meaning this year and last year) RadioShack and Popular Mechanics hold a Hackerspace challenge.
 They get two hackerspaces from across the country to build something with the same idea in mind. This year
