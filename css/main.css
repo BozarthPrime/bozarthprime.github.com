@@ -33,7 +33,7 @@ p { margin: 1em 0; }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #00a; }
 
 /*****************************************************************************/
 /*
@@ -175,6 +175,42 @@ nav ul li a img {
   color: #aaa;
   font-size: 1.25em;
 }
+
+/* Item List */
+ul.item-list {
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+}
+
+ul.item-list li {
+	background: url('../images/bullet.png') no-repeat 0 0;
+	padding-left: 1.2em;
+	margin-bottom: 10px;
+}
+
+ul.item-list li legend{
+	font-weight:900;
+	line-height: 26px;
+}
+
+ul.item-list li div {
+	padding-left: 2%;
+}
+
+/* Item List */
+div.step {
+	margin-bottom: 10px;
+}
+
+div.step legend {
+	font-weight:900;
+	line-height: 26px;
+}
+
+div.step div {
+}
+
 
 /* standard */
 .post pre {
