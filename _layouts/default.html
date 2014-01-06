@@ -12,7 +12,18 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
+		
+		<!-- JavaScript -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="/scripts/Gallery.js"></script>
+		<link rel="stylesheet" href="/scripts/Gallery.css">
+		
+		<script>
+			$(document).ready(function() {
+				$('.gallery').Gallery();
+			});
+		</script>
     </head>
     <body>
 
