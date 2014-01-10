@@ -1,3 +1,4 @@
 name: Jozarth
 markdown: redcarpet
 pygments: false
+paginate: 5
