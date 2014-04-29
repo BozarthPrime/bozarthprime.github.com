@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" media="screen and (min-device-width: 800px)" href="/css/main.css" />
+		<link rel='stylesheet' media='screen and (max-width: 799px)' href='/css/small.css' />
 		
 		<!-- JavaScript -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -32,23 +33,24 @@
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <nav>
 			    <ul>
-				    <li><a href="/"><img src="/images/home.png" /></a></li>
-					<li><a href="/about.html"><img src="/images/smirk.png" /></a></li>
-					<li><a href="https://github.com/BozarthPrime" target="_blank"><img src="/images/github_icon.png" /></a></li>
-					<li><a href="https://plus.google.com/113257511877818615265" target="_blank"><img src="/images/google_plus.png" /></a></li>
-					<li><a href="http://www.linkedin.com/pub/joseph-bozarth/21/9bb/35a" target="_blank"><img src="/images/linkedin1.png" /></a></li>
-					<li><a href="https://tinkercad.com/users/gjJcvbOv3hv-joseph-bozarth" target="_blank"><img src="/images/tinkercad-logo.png" /></a></li>
+				    <li><a href="/" title="Home"><img src="/images/home.png" /></a></li>
+					<li><a href="/about.html" title="About"><img src="/images/smirk.png" /></a></li>
+					<li><a href="https://github.com/BozarthPrime" target="_blank" title="GitHub"><img src="/images/github_icon.png" /></a></li>
+					<li><a href="https://plus.google.com/113257511877818615265" target="_blank" title="Google+"><img src="/images/google_plus.png" /></a></li>
+					<li><a href="http://www.linkedin.com/pub/joseph-bozarth/21/9bb/35a" target="_blank" title="LinkedIn"><img src="/images/linkedin1.png" /></a></li>
+					<li><a href="https://tinkercad.com/users/gjJcvbOv3hv-joseph-bozarth" target="_blank" title="Tinkercad"><img src="/images/tinkercad-logo.png" /></a></li>
+					<li><a href="http://www.thingiverse.com/BozarthPrime/designs" target="_blank" title="MakerBot Thingiverse"><img src="/images/MakerBot_logo_k.png" /></a></li>
 				</ul>
 			</nav>
           </div>
-
+			
           {{ content }}
 
           <div class="footer">
             <div class="contact">
               <p>
                 Joseph Bozarth<br />
-                Software Developer, Maker, and Geek From Milwaukee, Wi<br />
+                Software Developer and Maker From Milwaukee, Wi<br />
               </p>
             </div>
           </div>

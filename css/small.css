@@ -67,6 +67,10 @@ ul.posts span {
   margin: 3em auto 2em;
 }
 
+.site .header  {
+  min-height: 180px;
+}
+
 .site .header a {
   font-weight: bold;
   text-decoration: none;
@@ -141,26 +145,27 @@ ul.posts span {
 
 nav {
 	display: block;
-	position: fixed;
-	top: 20px;
-	left: 2%;
-	width: 10%;
+	width: 80%;
+	min-height: 80px;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
 
 nav ul {
-  padding: .5em;
+  padding: 0.5%;
   list-style-type: none;
   text-align: center;
 }
 
 nav ul li{
-  display: block;
+  display: inline-block;
   margin-bottom: 1em;
 }
 
 nav ul li a {
   text-decoration: none;
-  padding: 0.2em 2em 0.2em 2em;
+  padding: 1%;
   color: #FFF;
 }
 
