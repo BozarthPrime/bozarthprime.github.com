@@ -1,7 +1,7 @@
 (function ($) {
     $.fn.Gallery = function (options) {
         var settings = $.extend({
-            height: 200,
+            height: 500,
             width: 100,
 			heightIsPercent: false,
 			widthIsPercent: true,
@@ -43,9 +43,9 @@
 		element.css('overflow', 'auto');
 		
 		if (settings.heightIsPercent) {
-			element.css('height', settings.height + '%');
+			element.css('max-height', settings.height + '%');
 		} else {
-			element.css('height', settings.height + 'px');
+			element.css('max-height', settings.height + 'px');
 		}
 		
 		if (settings.widthIsPercent) {

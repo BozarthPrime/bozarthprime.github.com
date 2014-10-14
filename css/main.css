@@ -259,3 +259,19 @@ div.step div {
 .post pre.terminal code {
   background-color: #333;
 }
+
+/*****************************************************************************/
+/*
+/* Gallery
+/*
+/*****************************************************************************/
+
+.gallery-section {
+	margin-top: 2em;
+	padding-left: 1em;
+}
+
+.gallery-section-title{
+	font-weight: 200;
+	margin-bottom: 1.5em;
+}
