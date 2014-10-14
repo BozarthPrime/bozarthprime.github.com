@@ -125,6 +125,12 @@ Tools:
 	</div>
 </div>
 
+<div class='gallery'>
+	<img src="/images/story/GameBoard-1.jpg" />
+	<img src="/images/story/GameBoard-2.jpg" />
+	<img src="/images/story/GameBoard-3.jpg" />
+</div>
+
 Files:<br />
 <a href="http://www.thingiverse.com/thing:191998" target="_blank">Go Board</a></br>
 <a href="http://www.thingiverse.com/thing:191999" target="_blank">Thud Board</a></br>
