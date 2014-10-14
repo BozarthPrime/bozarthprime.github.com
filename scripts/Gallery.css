@@ -1,25 +1,9 @@
-/*div.gallery
-{
-    height: 200px;
-    width: 90%;
-    text-align: center;
-    vertical-align: middle;
-    overflow: auto;
-}
-
-div.gallery img
-{
-    max-height: 100%;
-    max-width: 200px;
-    display: inline-block;
-}*/
-
 #shadow
 {
     height: 100%;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -28,27 +12,18 @@ div.gallery img
 
 #lightbox
 {
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
     overflow: auto;
     z-index: 1001;
     display: none;
     position: fixed;
     margin-left: auto;
     margin-right: auto;
-    top: 20%;
-	left: 25%;
+    top: 10%;
+	left: 15%;
 }
 
-#lightbox img
-{
-    max-height: 85%;
-    max-width: 100%;
-	margin-bottom: 1%;
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}
 
 #close-button
 {
@@ -58,18 +33,76 @@ div.gallery img
 	height: 1.25em;
     cursor: pointer;
 	color: white;
-    background-color: rgba(100, 100, 100, 0.75);
+    background-color: rgba(100, 100, 100, 0.9);
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 #img-note
 {
-    background-color: rgba(255, 255, 255, 0.75);
-    width: 98%;
+    background-color: rgba(150, 150, 150, 0.75);
+    width: 58%;
 	height: 8%;
+	display: none;
+	position: fixed;
+	bottom: 5%;
+	left: 20%;
     padding: 0 1% 0 1%;
 	overflow-x: auto;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+}
+
+#img-cont
+{
+	height: 100%;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#img-cont img
+{
+    max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#img-next, #img-prev
+{
+	height: 3em;
+	width: 3em;
+	position: fixed;
+	bottom: 6%;
+	text-align: center;
+	cursor: pointer;
+	line-height: 2.75em;
+	color: #000;
+}
+
+#img-next img, #img-prev img
+{
+	max-height: 3em;
+	max-width: 3em;
+}
+
+#img-next
+{
+	right: 10%;
+}
+
+#img-prev
+{
+	left: 10%;
+}
+
+#img-close
+{
+	position: fixed;
+	top: 2%;
+	right: 2%;
+	cursor: pointer;
+	color: #000;
+	font-size: 2em;
+	height: 3em;
+	width: 3em;
+	font-family: consolas;
 }
