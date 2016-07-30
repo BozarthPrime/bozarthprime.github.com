@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Jozarth.net
+title: BozarthPrime.github.io
 ---
 
 <div id="home">
         {% for post in paginator.posts %}
             <div class="post">
-                <span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a>
 	            <br />
 	            {{ post.content }}
             </div>
