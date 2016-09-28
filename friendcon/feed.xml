@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FriendCon</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/friendcon/</link>
-    <atom:link href="http://yourdomain.com/friendcon/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 20:25:13 -0500</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 20:25:13 -0500</lastBuildDate>
+    <description>This is the home page of FriendCon. A very small convention run in the Twin Cities by a group of friends for eachother.</description>
+    <link>http://bozarthprime.github.io/friendcon/friendcon/</link>
+    <atom:link href="http://bozarthprime.github.io/friendcon/friendcon/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Sep 2016 21:04:56 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 21:04:56 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -27,14 +26,43 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 26 Sep 2016 20:17:56 -0500</pubDate>
-        <link>http://yourdomain.com/friendcon/jekyll/update/2016/09/26/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/friendcon/jekyll/update/2016/09/26/welcome-to-jekyll.html</guid>
+        <pubDate>Tue, 27 Sep 2016 20:00:07 -0500</pubDate>
+        <link>http://bozarthprime.github.io/friendcon/friendcon/jekyll/update/2016/09/27/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://bozarthprime.github.io/friendcon/friendcon/jekyll/update/2016/09/27/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Template Event</title>
+        <description>&lt;h2 id=&quot;time-and-location&quot;&gt;Time and Location&lt;/h2&gt;
+&lt;p&gt;Friday February 10th, 10:00am &lt;br /&gt;
+Dining Room&lt;/p&gt;
+
+&lt;h2 id=&quot;info&quot;&gt;Info&lt;/h2&gt;
+&lt;p&gt;This page is an example of an event page. You can do all sorts of cool things in markdown like template links &lt;a href=&quot;http://bozarthprime.github.io&quot;&gt;like this&lt;/a&gt;, put things &lt;code class=&quot;highlighter-rouge&quot;&gt;in boxes&lt;/code&gt;, and do code boxes like below.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;This&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;box&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can also do one off links to things like &lt;a href=&quot;/friendcon/calendar&quot;&gt;this one to an internal site page&lt;/a&gt; or &lt;a href=&quot;http://github.com&quot;&gt;this one to an external site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; you should give the post the date and time of the event. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;You can also look at the &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;kramdown&lt;/a&gt; syntax guide for more info about using it.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 10 Feb 2016 09:00:00 -0600</pubDate>
+        <link>http://bozarthprime.github.io/friendcon/friendcon/jekyll/template/2016/02/10/template-event.html</link>
+        <guid isPermaLink="true">http://bozarthprime.github.io/friendcon/friendcon/jekyll/template/2016/02/10/template-event.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>template</category>
         
       </item>
     
