@@ -1,3 +1,59 @@
+.cal-list {
+  list-style: none; }
+  .cal-list .date {
+    padding-top: 10px;
+    font-size: 2em;
+    color: #FFF;
+    font-weight: bold; }
+  .cal-list .event .title {
+    display: inline-block;
+    font-size: 1em; }
+  .cal-list .event .date {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #FFF; }
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.2); }
+  #clockdiv div {
+    padding: 10px;
+    display: inline-block; }
+    #clockdiv div span {
+      padding: 15px;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.2);
+      display: inline-block; }
+  #clockdiv .smalltext {
+    padding-top: 5px;
+    font-size: 16px; }
+
+#tagline {
+  font-size: 1.5em;
+  margin-bottom: 15px; }
+
+.center {
+  text-align: center; }
+
+#event-info {
+  font-size: 2em;
+  font-weight: bolder;
+  margin: 10px 0 10px 0;
+  text-align: center; }
+
+html {
+  background: url(images/20160804_095159.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 /**
  * Reset some basic elements
  */
@@ -12,8 +68,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
-  background-color: #fdfdfd;
+  color: #EEE;
+  /*background-color: $background-color;*/
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -71,15 +127,15 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    color: #EEE;
     text-decoration: underline; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #FEFEFE;
+  border-left: 4px solid white;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -93,7 +149,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid white;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -142,14 +198,14 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #828282; }
+    fill: #FEFEFE; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 5px solid #bebebe;
+  border-bottom: 1px solid white;
   min-height: 56px;
   position: relative; }
 
@@ -160,8 +216,9 @@ pre {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
+  .site-title, .site-title:hover, .site-title:visited {
+    color: #FFF;
+    text-decoration: none; }
 
 .site-nav {
   float: right;
@@ -169,7 +226,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #FFF;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -179,7 +236,7 @@ pre {
       top: 9px;
       right: 15px;
       background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
+      border: 1px solid white;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -194,7 +251,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #424242; }
+            fill: #bebebe; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -212,7 +269,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid white;
   padding: 30px 0; }
 
 .footer-heading {
@@ -226,7 +283,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #FEFEFE;
   margin-left: -15px; }
 
 .footer-col {
@@ -264,7 +321,9 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 300px; }
 
 .page-heading {
   font-size: 20px; }
@@ -277,7 +336,7 @@ pre {
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #FEFEFE; }
 
 .post-link {
   display: block;
@@ -321,7 +380,8 @@ pre {
 .highlight {
   background: #fff; }
   .highlighter-rouge .highlight {
-    background: #eef; }
+    background: #eef;
+    color: #bebebe; }
   .highlight .c {
     color: #998;
     font-style: italic; }
@@ -455,3 +515,14 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.highlighter-rouge {
+  background: #eef;
+  color: #3f3f3f; }
+
+.go-back {
+  font-weight: bolder;
+  font-size: 1.2em;
+  display: inline-block; }
+  .go-back:hover {
+    cursor: pointer; }
