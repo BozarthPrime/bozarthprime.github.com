@@ -1,59 +1,3 @@
-.cal-list {
-  list-style: none; }
-  .cal-list .date {
-    padding-top: 10px;
-    font-size: 2em;
-    color: #FFF;
-    font-weight: bold; }
-  .cal-list .event .title {
-    display: inline-block;
-    font-size: 1em; }
-  .cal-list .event .date {
-    display: inline-block;
-    font-size: 0.9em;
-    color: #FFF; }
-
-#clockdiv {
-  font-family: sans-serif;
-  color: #fff;
-  display: inline-block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 30px;
-  border-radius: 3px;
-  background: rgba(0, 0, 0, 0.2); }
-  #clockdiv div {
-    padding: 10px;
-    display: inline-block; }
-    #clockdiv div span {
-      padding: 15px;
-      border-radius: 3px;
-      background: rgba(0, 0, 0, 0.2);
-      display: inline-block; }
-  #clockdiv .smalltext {
-    padding-top: 5px;
-    font-size: 16px; }
-
-#tagline {
-  font-size: 1.5em;
-  margin-bottom: 15px; }
-
-.center {
-  text-align: center; }
-
-#event-info {
-  font-size: 2em;
-  font-weight: bolder;
-  margin: 10px 0 10px 0;
-  text-align: center; }
-
-html {
-  background: url(images/20160804_095159.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 /**
  * Reset some basic elements
  */
@@ -76,6 +20,13 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
+
+html {
+  background: url(../images/20160804_095159.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -163,6 +114,12 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+/**
+ * Formatting
+ */
+.center {
+  text-align: center; }
 
 /**
  * Wrapper
@@ -526,3 +483,84 @@ pre {
   display: inline-block; }
   .go-back:hover {
     cursor: pointer; }
+
+.cal-list {
+  list-style: none; }
+  .cal-list .date {
+    font-size: 2em;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 35px; }
+  .cal-list .event .title {
+    display: inline-block;
+    font-size: 1em; }
+  .cal-list .event .event-date {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #FFF; }
+
+#tagline {
+  font-size: 1.5em;
+  margin-bottom: 15px; }
+
+#event-info {
+  font-size: 2em;
+  font-weight: bolder;
+  margin: 10px 0 10px 0;
+  text-align: center; }
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.2); }
+  #clockdiv div {
+    padding: 10px;
+    display: inline-block; }
+    #clockdiv div span {
+      padding: 15px;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.2);
+      display: inline-block; }
+  #clockdiv .smalltext {
+    padding-top: 5px;
+    font-size: 16px; }
+
+#sponsor-list {
+  padding-top: 1em;
+  border-top: 2px Solid White;
+  text-align: center; }
+  #sponsor-list .sponsor {
+    font-size: 1.2em;
+    font-weight: bold; }
+
+#latest-news {
+  margin: 50px 0 60px 0; }
+  #latest-news .header {
+    text-align: center;
+    margin-bottom: 1.2em; }
+
+.news-post {
+  margin-bottom: 4em; }
+  .news-post .header {
+    border-bottom: 2px Solid White;
+    margin-bottom: 1.2em; }
+
+.event-list {
+  list-style: none; }
+  .event-list .category {
+    font-size: 2em;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 35px; }
+  .event-list .event .title {
+    display: inline-block;
+    font-size: 1em; }
+  .event-list .event .date {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #FFF; }
