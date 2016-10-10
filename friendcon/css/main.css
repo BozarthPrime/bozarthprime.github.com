@@ -314,7 +314,8 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: justify; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
@@ -498,6 +499,10 @@ pre {
     display: inline-block;
     font-size: 0.9em;
     color: #FFF; }
+  .cal-list .event .type {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #FFF; }
 
 #tagline {
   font-size: 1.5em;
@@ -539,7 +544,8 @@ pre {
     font-weight: bold; }
 
 #latest-news {
-  margin: 50px 0 60px 0; }
+  margin: 50px 0 60px 0;
+  text-align: justify; }
   #latest-news .header {
     text-align: center;
     margin-bottom: 1.2em; }
@@ -549,6 +555,8 @@ pre {
   .news-post .header {
     border-bottom: 2px Solid White;
     margin-bottom: 1.2em; }
+  .news-post .body {
+    text-align: justify; }
 
 .event-list {
   list-style: none; }
