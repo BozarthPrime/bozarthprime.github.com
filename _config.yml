@@ -1,4 +1,4 @@
-name: BozarthPrime
-pygments: false
-paginate: 5
+name: "Joseph Bozarth"
+highlighter: "null"
+jekyll-paginate: 5
 paginate_path: "blog/page:num"

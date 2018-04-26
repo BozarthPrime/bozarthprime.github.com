@@ -13,52 +13,50 @@
         <!-- Custom CSS -->
 		<link rel="stylesheet" media="screen and (min-device-width: 800px)" href="/css/main.css" />
 		<link rel='stylesheet' media='screen and (max-width: 799px)' href='/css/small.css' />
-		
-		<!-- JavaScript -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-		<script src="/scripts/Gallery.js"></script>
-		<link rel="stylesheet" href="/scripts/Gallery.css">
-		
-		<script>
-			$(document).ready(function() {
-				$('.gallery').Gallery({
-					nextImage: "/images/right_arrow.gif", 
-					prevImage: "/images/left_arrow.gif",
-					closeImage: "/images/x.gif"
-				});
-			});
-		</script>
-    </head>
-    <body>
+	</head>
+	
+	<body>
+		<nav>
+			<div id="nav-title">
+				<a href="/">{{ site.name }}</a>
+			</div>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <nav>
-			    <ul>
-				    <li><a href="/" title="Home"><img src="/images/home.png" /></a></li>
-					<li><a href="/about.html" title="About"><img src="/images/smirk.png" /></a></li>
-					<li><a href="/gallery.html" title="Gallery"><img src="/images/camera.ico" /></a></li>
-					<li><a href="https://github.com/BozarthPrime" target="_blank" title="GitHub"><img src="/images/github_icon.png" /></a></li>
-					<li><a href="https://plus.google.com/113257511877818615265" target="_blank" title="Google+"><img src="/images/google_plus.png" /></a></li>
-					<li><a href="http://www.linkedin.com/pub/joseph-bozarth/21/9bb/35a" target="_blank" title="LinkedIn"><img src="/images/linkedin1.png" /></a></li>
-					<li><a href="https://tinkercad.com/users/gjJcvbOv3hv-joseph-bozarth" target="_blank" title="Tinkercad"><img src="/images/tinkercad-logo.png" /></a></li>
-				</ul>
-			</nav>
-          </div>
+			<ul id="nav-links">
+				<li><a href="/projects" title="Projects">Projects</a></li>
+				<li><a href="/3dprinting" title="3D Printing">3D Printing</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			{% if page.header_image %}
+				<img src="{{ page.header_image }}" />
+			{% endif %}
 			
-          {{ content }}
+			{% if page.header %}
+				<h1>{{ page.header }}</h1>
+			{% endif %}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Joseph Bozarth<br />
-                Software Developer and Maker <br />
-              </p>
-            </div>
-          </div>
-        </div>
+			{% if page.subheader %}
+				<p>{{ page.subheader }}</p>
+			{% endif %}
+		</header>
 
-    </body>
+		<div class="site">
+			{{ content }}
+		</div>
+
+		<footer>
+			<div class="contact">
+				Joseph Bozarth - Software Engineer and Maker
+			</div>
+
+			<div class="social-links">
+				<ul>
+					<li><a href="https://github.com/BozarthPrime" target="_blank" rel="noopener noreferrer" title="GitHub"><img src="/images/icons/Github.png" /></a></li>
+					<li><a href="http://www.linkedin.com/pub/joseph-bozarth/21/9bb/35a" target="_blank" rel="noopener noreferrer" title="LinkedIn"><img src="/images/icons/Linkedin.png" /></a></li>
+					<li><a href="https://twitter.com/Bozarth_Prime" target="_blank" rel="noopener noreferrer" title="Twitter"><img src="/images/icons/Twitter.png" /></a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
 </html>
