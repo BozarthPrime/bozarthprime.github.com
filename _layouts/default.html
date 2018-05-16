@@ -16,47 +16,49 @@
 	</head>
 	
 	<body>
-		<nav>
-			<div id="nav-title">
-				<a href="/">{{ site.name }}</a>
-			</div>
+		<div id="container">
+			<nav>
+				<div id="nav-title">
+					<a href="/">{{ site.name }}</a>
+				</div>
 
-			<ul id="nav-links">
-				<li><a href="/projects" title="Projects">Projects</a></li>
-				<li><a href="/3dprinting" title="3D Printing">3D Printing</a></li>
-			</ul>
-		</nav>
-
-		<header>
-			{% if page.header_image %}
-				<img src="{{ page.header_image }}" />
-			{% endif %}
-			
-			{% if page.header %}
-				<h1>{{ page.header }}</h1>
-			{% endif %}
-
-			{% if page.subheader %}
-				<p>{{ page.subheader }}</p>
-			{% endif %}
-		</header>
-
-		<div class="site">
-			{{ content }}
-		</div>
-
-		<footer>
-			<div class="contact">
-				Joseph Bozarth - Software Engineer and Maker
-			</div>
-
-			<div class="social-links">
-				<ul>
-					<li><a href="https://github.com/BozarthPrime" target="_blank" rel="noopener noreferrer" title="GitHub"><img src="/images/icons/Github.png" /></a></li>
-					<li><a href="http://www.linkedin.com/pub/joseph-bozarth/21/9bb/35a" target="_blank" rel="noopener noreferrer" title="LinkedIn"><img src="/images/icons/Linkedin.png" /></a></li>
-					<li><a href="https://twitter.com/Bozarth_Prime" target="_blank" rel="noopener noreferrer" title="Twitter"><img src="/images/icons/Twitter.png" /></a></li>
+				<ul id="nav-links">
+					<li><a href="/projects" title="Projects">Projects</a></li>
+					<li><a href="/3dprinting" title="3D Printing">3D Printing</a></li>
 				</ul>
+			</nav>
+
+			<header>
+				{% if page.header_image %}
+					<img src="{{ page.header_image }}" />
+				{% endif %}
+				
+				{% if page.header %}
+					<h1>{{ page.header }}</h1>
+				{% endif %}
+
+				{% if page.subheader %}
+					<p>{{ page.subheader }}</p>
+				{% endif %}
+			</header>
+
+			<div id="body">
+				{{ content }}
 			</div>
-		</footer>
+
+			<footer>
+				<div class="contact">
+					Joseph Bozarth - Software Engineer and Maker
+				</div>
+
+				<div class="social-links">
+					<ul>
+						<li><a href="https://github.com/BozarthPrime" target="_blank" rel="noopener noreferrer" title="GitHub"><img src="/images/icons/Github.png" /></a></li>
+						<li><a href="http://www.linkedin.com/pub/joseph-bozarth/21/9bb/35a" target="_blank" rel="noopener noreferrer" title="LinkedIn"><img src="/images/icons/Linkedin.png" /></a></li>
+						<li><a href="https://twitter.com/Bozarth_Prime" target="_blank" rel="noopener noreferrer" title="Twitter"><img src="/images/icons/Twitter.png" /></a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>

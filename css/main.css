@@ -11,7 +11,7 @@
 		 url('../font/FiraCode-Regular.woff2') format('woff2'),
 		 url('../font/FiraCode-Regular.woff') format('woff'),
 		 url('../font/FiraCode-Regular.ttf')  format('truetype');
-  }
+}
 
 /* Global Reset */
 * {
@@ -19,19 +19,24 @@
 	padding: 0;
 }
 
-html, body { 
+html, 
+body { 
+	margin: 0;
+	padding: 0;
 	height: 100%;
 }
 
 body {
-	background-color: #FFF;
+	background-color: #F7F7F7;
 	font-size: 100%;
 	color: #494949;
 	font-family: 'FiraCode', Courier, monospace;
-	margin: 0;
-	padding: 0;
 	line-height: 1.2em;
-	background-color: #F7F7F7;
+}
+
+#container {
+	min-height:100%;
+	position:relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,20 +71,21 @@ ul.posts span {
 
 /*****************************************************************************/
 /*
-/* Site
+/* Content body
 /*
 /*****************************************************************************/
 
-.site {
+#body {
 	font-size: 1.15em;
 	width: 100%;
+	padding-bottom: 4em;
 }
 
-.site .meta {
+#body .meta {
 	color: #aaa;
 }
 
-.site #home{
+#body #home{
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
