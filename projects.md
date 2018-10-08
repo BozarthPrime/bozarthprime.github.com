@@ -55,7 +55,7 @@ header: Projects
             </h1>
             
             <p>
-                A collection of widgets to display your progress and goals on an [Extra Life](https://www.extra-life.org/) stream.
+                A collection of widgets to display your progress and goals on an <a href="https://www.extra-life.org/">Extra Life</a> stream.
             </p>
         </div>
     </div>
