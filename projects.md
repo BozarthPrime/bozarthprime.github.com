@@ -41,4 +41,22 @@ header: Projects
             </p>
         </div>
     </div>
+
+    <div class="project">
+        <div class="col-w1">
+            <img src="../images/projects/Extra-Life-Tracker-Logo.png" />
+        </div>
+
+        <div class="col-w2">
+            <h1>
+                <a href="https://github.com/BozarthPrime/Extra-Life-Tracker" target="_blank" rel="noopener noreferrer" title="Atom Presentation Mode">
+                    Extra Life Tracker
+                </a>
+            </h1>
+            
+            <p>
+                A collection of widgets to display your progress and goals on an [Extra Life](https://www.extra-life.org/) stream.
+            </p>
+        </div>
+    </div>
 </div>
