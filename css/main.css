@@ -3,6 +3,7 @@
 /* Common
 /*
 /*****************************************************************************/
+@import url("color.css");
 
 @font-face {
 	font-family: 'FiraCode';
@@ -27,9 +28,9 @@ body {
 }
 
 body {
-	background-color: #F7F7F7;
+	background-color: var(--background);
 	font-size: 100%;
-	color: #494949;
+	color: var(--main_font);
 	font-family: 'FiraCode', Courier, monospace;
 	line-height: 1.2em;
 }
@@ -196,7 +197,7 @@ ul.posts span {
 /*****************************************************************************/
 
 header {
-	background-color: #444140;
+	background-color: var(--header_color);
 	padding-top: 20px;
 	padding-bottom: 10px;
 	width: 100%;
@@ -223,7 +224,7 @@ header p {
 	width: 100%;
 	text-align: center;
 	font-size: 1.5em;
-	color: #CCC;
+	color: var(--header_text_color);
 }
 
 /*****************************************************************************/
@@ -295,20 +296,20 @@ nav {
 
 #nav-title a {
 	text-decoration: none;
-	color: #000;
+	color: var(--menu_header);
 }
 
 #nav-title a:hover {
-	color: #888;
+	color: var(--menu_header_hover);
 }
 
 #nav-title a.extra {
-	color: #aaa;
+	color: var(--menu_header);
 	margin-left: 1em;
 }
 
 #nav-title a.extra:hover {
-	color: #000;
+	color: var(--menu_header_hover);
 }
 
 #nav-links {
